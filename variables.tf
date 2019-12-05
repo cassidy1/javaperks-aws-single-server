@@ -3,6 +3,14 @@ variable "aws_region" {
     default = "us-west-1"
 }
 
+variable "aws_access_key" {	
+    description = "AWS Access Key"	
+}	
+
+variable "aws_secret_key" {	
+    description = "AWS Secret Key"	
+}
+
 variable "aws_kms_key_id" {
     description = "AWS KMS Key for Unsealing"
 }
